@@ -1,0 +1,21 @@
+# 내부 개발 문서 — 공개 repo엔 안 올린다. 로컬 + 비공개 clower-dev에만 둔다.
+/CLAUDE.md
+/docs/
+/.claude/
+
+# 컴파일된 hook 바이너리 (소스만 커밋)
+hook/clower-hook
+
+# 빌드 산출물 (.app 번들 + .dmg)
+dist/
+
+# 아이콘 중간 산출물 (Clower.icns는 커밋, 마스터 png는 재생성 가능)
+app/assets/icon-master.png
+
+# macOS / Xcode / Swift
+.DS_Store
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+app/Clower
